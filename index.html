@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
   <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
@@ -14,9 +16,14 @@
 />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
   <title>Debbyiecodes Portfolio</title>
+
   <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
   <section <div data-aos="zoom-in"></div>
       
@@ -33,28 +40,31 @@
   
   </div>
   <header>
-    <div id="brand"><a href="/"><img src="images/D_.jpg"</a></div>
     <nav>
-      <ul >
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Projects</a></li>
-        <li><a href="#section3">About</a></li>
-        <li><a href="#section4">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-      <ul class="mobile-menu">
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Projects</a></li>
-        <li><a href="#section3">About</a></li>
-        <li><a href="#section4">Contact</a></li>
-      </ul>
-    </div>
-  </header>    
+			<h1>  <img src="images/D_.jpg"></h1>
 
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">Project</a>
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+			</div>
+
+			<button class="hamburger">
+				<span class="material-icons">menu</span>
+			</button>
+		</nav>
+
+		<div class="mobile-menu">
+			<a href="#section1">Home</a>
+			<a href="#section2">Projects</a>
+			<a href="#section3">About</a>
+			<a href="#section4">Contact</a>
+		</div>
+	</header>
+
+
+  <!-- Home section -->
   
   <section id="section1">
 
@@ -64,10 +74,13 @@
       </p>
       <div class="buttons">
       <button class="but-1">Hire me</button>
-      <button  class="but-2">My Resume</button>
+     <a href="https://drive.google.com/drive/folders/11-czFy0bmfKY0YMzGrotop3Ml3JGx6vu" ><button  class="but-2">My Resume</button> </a>
       </div>
    </div>
   </section>
+
+
+  <!-- Project section -->
 
   <section <div data-aos="fade-right"></div>
       
@@ -90,7 +103,7 @@
     <div class="project-container">
 
     <div class="project1">
-      <a href="https://modalsignup-signinpage.netlify.app/"><img src="images/modal.png"></a>
+      <a href="https://modalsignup-signinpage.netlify.app/"><img src="images/form.png"></a>
            <h4>Modal sign-up/ sign in page</h4>
          <p>A modal sign-up/ sign-in page with simple JavaScript form validation .</p>
     </div>
@@ -99,19 +112,19 @@
     <div class="project2">
      <a href=" https://fabusuyi-deborah.github.io/Figo/"> <img src="images/Figo.png"> </a>
     
-      <h4>Fashion website</h4>
+      <h4>Figo</h4>
       <p>A Fintech (Figo) landing page replication. Built with Html, Css and JavaScript </p>
     </div>
 
     <div class="project3">
-     <a href="endasmu-nft.netlify.app/" ><img src="images/clothes.jpg"> </a>
+     <a href="https://endasmu-nft.netlify.app/" ><img src="images/EnDasmu.png"> </a>
       
       <h4>Fashion website</h4>
-      <p>An NFT landing page built with Html and Css. Collaborated with a team of other girls to better understand the use of Git and Github.</p>
+      <p>A group project to bring an NFT market place dribble design to life. Worked with a team of EHC front-end developers to further improve our front-end skills</p>
     </div>
 
     <div class="project4">
-      <img src="images/clothes.jpg">
+      <img src="images/EnDasmu.png">
        <h4>Fashion website</h4>
       <p>A fashion website created with Html and Css</p>
     </div>
@@ -119,6 +132,9 @@
     </div>
    </div>
   </section>
+
+
+  <!-- About section -->
 
 
   <section <div data-aos="fade-right"></div>
@@ -136,23 +152,26 @@
 
   </div>
 
-   <div  id="section3"  class="About">
-        <h3>About</h3>
+    <div  id="section3"  class="About">
+        <h3>About</h3>  
+
            <div class="head">
       <p>Fabusuyi Deborah_ <span>Front-end Developer</span></p>
            </div>
+
     <div class="wrapper">
+
         <div class="content">
                <p> I'm Fabusuyi Deborah, a 300 lvl Plant Biology student of the university of Ilorin. I'm a Frontend developer and Technical writer.  I am Passionate about Tech, Networking, Volunteering, and Open source Contribution. When I'm not coding, I love to watch films and play games.
           </p>
               <button class="but-1">Hire me</button>
-             <button class="but-2">My Resume</button>
+             <a href="https://drive.google.com/drive/folders/11-czFy0bmfKY0YMzGrotop3Ml3JGx6vu"><button class="but-2">My Resume</button> </a>
 
-          
-     </div>
-      <img src="images/deeeeee.png">
-      
+        <img src="images/deeeeee.png">
+
+        </div>
     </div>
+
 
    <div class="skills">
 
@@ -162,17 +181,19 @@
          <p class="p1">Html</p>
          <p class="p2">Css</p>
          <p class="p3">JavaScript</p>
-         <!-- <p class="p3">Git/Github</p> -->
          
     </div>
 
    </div>
 
    <div class="div"></div>
-  </section>
+  </section> 
 
 
-  <section <div data-aos="fade-right"></div>
+  <!-- Contact section -->
+
+
+   <section <div data-aos="fade-right"></div>
       
     <div
     data-aos="fade-right"
@@ -217,12 +238,14 @@
    </div> 
       <div class="footer">
         <p>Created by Debbyiecodes</p>
-      <!-- </div>  -->
     </section> 
+
+    <a class="gotopbtn" href=""> <i class="fa fa-arrow-up"></i></a>
+
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-    <script src="main.js"></script>
+    <script src="main.js"></script> 
 </body>
 </html>
