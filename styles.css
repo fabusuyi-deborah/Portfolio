@@ -67,7 +67,7 @@ nav h1 {
 
 .hamburger span {
 	color: black;
-	font-size: 2rem;
+	font-size: 4rem;
 }
 
 .mobile-menu {
@@ -94,10 +94,10 @@ nav h1 {
 .mobile-menu a {
 	display: block;
 	padding: 1rem;
-	color: #FFF;
+	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	transition: 0.3s;
 }
 
