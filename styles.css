@@ -199,10 +199,10 @@ button {
   font-family: "TTFirsNeue-Regular", sans-serif;
   font-size: 1.5rem;
 }
-.p1 {
+.p1, .p4 {
   color: #ac9dff;
 }
-.p2 {
+.p2, .p5 {
   color: #ffce8c;
 }
 .p3 {
