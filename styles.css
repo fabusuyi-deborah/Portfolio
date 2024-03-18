@@ -125,6 +125,10 @@ nav h1 {
   background-color: #000000;
   color: white;
 }
+.but-1 a {
+  color: white;
+  text-decoration: none;
+}
 
 .project-container {
   display: flex;
@@ -197,7 +201,7 @@ button {
 }
 .p-class {
   font-family: "TTFirsNeue-Regular", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .p1, .p4 {
   color: #ac9dff;
@@ -303,6 +307,7 @@ button {
     gap: 5rem;
     /* padding-left: 20rem; */
   } 
+
 }
 
 @media (min-width: 1024px) {
